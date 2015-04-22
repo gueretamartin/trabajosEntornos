@@ -1,0 +1,33 @@
+<html>
+<body>
+
+<!-- envio los datos por la url , utilizo metodo get -->
+
+<form name="form1" id="form1" action="ingresoClientes.html" method="get"> 
+  <p>
+  INGRESO RESTRINGIDO PARA CLIENTES
+  </p>
+  <!--englobo en un fieldset para agrupar los botones del form y coloco leyenda "CONSULTA" -->
+
+  <p><fieldset><legend>CONSULTA</legend><br>
+ 
+  <!-- Cambio ingreso de texto por area de texto -->
+
+    <label>Mensaje: </label>
+   <textarea name="mensaje" cols="10" rows="5 ">ingrese su consulta</textarea>
+  </p>
+
+<!-- Cambio type de constraseÒa a tipo password -->
+
+  <p>
+    <label>Contrase√±a:</label>
+    <input type="password" name="Contrasena" id="Contrasena" />
+  </p>
+  <!-- BÛton es del tipo "submit"  -->
+
+  <p>
+   <input name="Enviar" type="submit">
+  </p></fieldset>
+</form>
+</body>
+</html>
